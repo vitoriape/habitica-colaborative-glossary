@@ -28,8 +28,8 @@ A ideia é manter um controle das strings inseridas antes que elas façam parte 
 
 Como referências para esse projeto, utilizei as seguintes fontes:
 
-*A Wiki PT-BR do Habitica e seu Glossário: (https://habitica.fandom.com/pt-br/wiki/Gloss%C3%A1rio)
+* A Wiki PT-BR do Habitica e seu Glossário: (https://habitica.fandom.com/pt-br/wiki/Gloss%C3%A1rio)
 
-*O Portuguse (Brazil) Glossary do Weblate Habitica: (https://translate.habitica.com/dictionaries/habitica/pt_BR/)
+* O Portuguse (Brazil) Glossary do Weblate Habitica: (https://translate.habitica.com/dictionaries/habitica/pt_BR/)
 
-*A Planilha antiga "Tradução Habitica", elaborada pelo @BardoVelho: (https://docs.google.com/spreadsheets/d/1zxh9XHd6ODQ2tUh2Zk0l1ovpWRhLKLV5mXYRUjfX_TE/edit#gid=0)
+* A Planilha antiga "Tradução Habitica", elaborada pelo @BardoVelho: (https://docs.google.com/spreadsheets/d/1zxh9XHd6ODQ2tUh2Zk0l1ovpWRhLKLV5mXYRUjfX_TE/edit#gid=0)
