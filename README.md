@@ -6,6 +6,8 @@ Mais pra frente haverá uma planilha mais simples, em formato xlsx (sem VBA), ta
 
 As legendas para as strings ainda serão reorganizadas e pretendo criar uma planilha só para elas. Assim que estiver pronto haverá uma caixinha de seleção dessas legendas/labels no campo de inserção de novos termos.
 
+No repositório do projeto constam (em arquivo do tipo bloco de notas) todos os códigos em VBA usados nos botões da planilha. Não é necessário fazer nenhum tipo de instalação, essa é apenas uma forma de manter os mesmos organizados.
+
 ## Guia Search_Bar
 
 A guia "Search_Bar" serve para procurar por termos do Habitica, por enquanto existem dois botões:
