@@ -26,6 +26,14 @@ As string inseridas nessa guia vão para a aba "Contributions' e não para a aba
 
 A ideia é manter um controle das strings inseridas antes que elas façam parte oficialmente da aba de termos técnicos.
 
+## Guia Contributions
+
+Todas as novas palavras adicionadas são registradas nessa planilha.
+
+## Guia Habitica_Technical_Terms
+
+Nesta guia estão alguns dos termos técnicos mais usados no Habitica, eles foram retirados dos projetos referenciados abaixo.
+
 ### Referências
 
 Como referências para esse projeto, utilizei as seguintes fontes:
