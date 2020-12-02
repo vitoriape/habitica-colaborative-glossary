@@ -1,0 +1,115 @@
+Sub Button1_Clique()
+
+	Categorias.Show
+
+End Sub
+
+---
+
+Sub Button2_Clique()
+
+	Produtos.Show
+
+End Sub
+
+---
+
+Private Sub btn_sair_Click()
+
+	Unload me
+	Worksheets("Dados").Activate
+	
+End Sub
+
+---
+
+Private Sub btn_salvar_Click()
+
+	Worksheets("Categorias").Activate
+	Range("A4").Select
+	
+	On Error GoTo Continua
+	Cells.Find(What:=txt_categoria.Value, lookat:=xlWhole).Activate
+	
+	If ActiveCell.Value = txt_categoria.Value Then
+	MsgBox "Essa categoria já existe!"
+	
+	Else
+	Continua:
+	Do
+	
+	If Not(IsEmpty(ActiveCell)) Then
+	ActiveCell.Offset(1, 0).Select
+	End If
+	Loop Until IsEmpty(ActiveCell) = True
+	
+	ActiveCell.Value = txt_categoria.Value
+	ActiveCell.Offset(0, 1).Value = txt_descricao.Value
+	
+	MsgBox "Categoria adicionada com sucesso!"
+	
+	End If
+	
+	txt_categoria.Value = Empty
+	txt_descricao.Value = Empty
+	
+	txt_categoria.SetFocus
+	
+End Sub
+
+---
+
+Private Sub btn_salvar_Click() 2?
+
+	Worksheets("Categorias").Activate
+	Range("A4").Select
+	
+	Dim cod
+	
+	On Error GoTo Continua
+	Cells.Find(What:=txt_categoria.Value, lookat:=xlWhole).Activate
+	
+	If ActiveCell.Value = txt_categoria.Value Then
+	MsgBox "Essa categoria já existe!"
+	
+	Else
+	Continua:
+	Do
+	
+	If Not(IsEmpty(ActiveCell)) Then
+	ActiveCell.Offset(1, 0).Select
+	End If
+	Loop Until IsEmpty(ActiveCell) = True
+	
+	cod = Range("A400").End(xlUp).Offset(0, 0).Value
+	ActiveCell.Value = cod + 1
+	
+	ActiveCell.Offset(0, 1).Value = txt_produto.Value
+	ActiveCell.Offset(0, 2).Value = cbo_categoria.Value
+	ActiveCell.Offset(0, 3).Value = txt_quantidade.Value
+	ActiveCell.Offset(0, 4).Value = txt_valor.Value
+	
+	MsgBox "Produto adicionado com sucesso!"
+	End If
+	
+	txt_produto.Value = Empty
+	cbo_categoria.Value = Empty
+	txt_quantidade.Value = Empty
+	txt_valor.Value = Empty
+	
+	txt_produto.SetFocus
+	
+End Sub
+
+---
+
+Private Sub UserForm_Initialize()
+
+	With Worksheets("Categorias").Select
+	cbo_categoria.List = Range("A4:A" & Range("A4").End(xlDown).Row).Value
+	
+	End With
+	
+	Sheets("Produtos").Select
+	
+End Sub
