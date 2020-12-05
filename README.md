@@ -1,5 +1,4 @@
 # HabiTranSource(PT-BR)
-
 Este é um projeto criado com o intuito de reunir os termos técnicos do Habitica e strings comuns de tradução em uma planilha colaborativa.
 A mesma funciona por meio de códigos em VBA. Para utilizá-la basta baixar a planilha (em formato xlsm), abrir a mesma e ativar o uso do VBA no seu Excel.
 Mais pra frente haverá uma planilha mais simples, em formato xlsx (sem VBA), também para consulta e inserção de termos.
@@ -8,38 +7,40 @@ As legendas para as strings ainda serão reorganizadas e pretendo criar uma plan
 
 No repositório do projeto constam (em arquivo do tipo bloco de notas) todos os códigos em VBA usados nos botões da planilha. Não é necessário fazer nenhum tipo de instalação, essa é apenas uma forma de manter os mesmos organizados.
 
-## Guia Search_Bar
+---
 
-A guia "Search_Bar" serve para procurar por termos do Habitica, por enquanto existem dois botões:
+## Spreadsheet: Discussion Habitica Source
+Contém ferramentas para inclusão de sugestões sobre traduções de termos do Habitica.
 
-* Um para pesquisar por um termos em EN, basta digitar a palavra em inglês e clicar no botão "SEARCH (EN)"
+### Sheet: Add_New_Discussion
+Na planilha Add_New_Discussion é possível contribuir adicionando novas dsicussões, basta incluir nos respectivos campos, o termo em PT-BR, em EN e caso seja possvel, uma legenda (que pode ser selecionada no campo "Label") e notas sobre a discussão.
 
-* Outro para pesquisar por um termo em PT-BR, basta digitar a palavra em português e clicar no botão "SEARCH (PT-BR)"
+### Sheet: Discussions
+Banco de dados onde fica registrado as novas discussões inseridas através da planillha "Add_New_Discussion".
 
-Dessa forma a planilha pesquisa na guia Habitica_Technical_Terms e retorna o termo que você pesquisou nos dois idiomas (PT-BR e EN). Retorna também, caso haja, uma legenda dessa string pesquisada e notas a respeito dela.
+---
 
-## Guia Add_New_Source
+## Spreadsheet: Search Habitica Source
+Contém ferramentas que possibilitam a pesquisa por termos técnicos do Habitica nos dois idiomas (EN & PT-BR).
 
-Na guia Add_New_Source é possível contribuir adicionando novas palavras, basta incluir nos respectivos campos, o termo em PT-BR, em EN e caso seja possvel, uma legenda e notas sobre a palavra. O campo de legendas ainda será aperfeiçoado.
+### Sheet: Search_Bar
+Selecionando o eixo B2, ao lado do ícone de pesquisa, é possível digitar o termo pelo qual se deseja procurar. O botão "CLEAR" ao lado apaga este campo.
 
-As string inseridas nessa guia vão para a aba "Contributions' e não para a aba "Habitica_Technical_Terms".
+* Caso o termo pesquisado esteja em EN, deve-se usar o botão roxo "SEARCH EN".
+* Caso o termo pesquisado esteja em PT-BR, deve-se usar o botão roxo "SEARCH PT-BR".
 
-A ideia é manter um controle das strings inseridas antes que elas façam parte oficialmente da aba de termos técnicos.
+A ferramenta retorna, caso haja no banco de dados, o termo equivalente em PT-BR e em EN, a legenda do mesmo e notas a respeito dele.
 
-## Guia Contributions
+### Sheet: Habitica_Technical_Terms
+Nesta planilha está o banco de dados com alguns dos termos técnicos mais usados no Habitica, eles foram retirados dos projetos referenciados no final dessa documentação.
 
-Todas as novas palavras adicionadas são registradas nessa planilha.
+---
 
-## Guia Habitica_Technical_Terms
+## Referências
+Como referências para esse projeto foram utilizadas as seguintes fontes:
 
-Nesta guia estão alguns dos termos técnicos mais usados no Habitica, eles foram retirados dos projetos referenciados abaixo.
+* A Wiki PT-BR do Habitica e seu [Glossário](https://habitica.fandom.com/pt-br/wiki/Gloss%C3%A1rio)
 
-### Referências
+* O Portuguse (Brazil) [Glossary do Weblate Habitica](https://translate.habitica.com/dictionaries/habitica/pt_BR/)
 
-Como referências para esse projeto, utilizei as seguintes fontes:
-
-* A Wiki PT-BR do Habitica e seu Glossário: (https://habitica.fandom.com/pt-br/wiki/Gloss%C3%A1rio)
-
-* O Portuguse (Brazil) Glossary do Weblate Habitica: (https://translate.habitica.com/dictionaries/habitica/pt_BR/)
-
-* A Planilha antiga "Tradução Habitica", elaborada pelo @BardoVelho: (https://docs.google.com/spreadsheets/d/1zxh9XHd6ODQ2tUh2Zk0l1ovpWRhLKLV5mXYRUjfX_TE/edit#gid=0)
+* A Planilha antiga [Tradução Habitica](https://docs.google.com/spreadsheets/d/1zxh9XHd6ODQ2tUh2Zk0l1ovpWRhLKLV5mXYRUjfX_TE/edit#gid=0), elaborada pelo @BardoVelho.
