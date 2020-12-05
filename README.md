@@ -11,6 +11,17 @@ Em breve os **Módulos** serão substituídos por **Formulários**.
 
 ---
 
+## Spreadsheet: Simple Search Habitica Source
+Contém uma ferramenta de pesquisa simplificada, sem VBA.
+
+### Sheet: Search Bar
+Selecione e linha 2 e digite o termo pelo qual deseja procurar. Caso ele esteja presente no banco de dados, serão retornadas as _strings_ equivalentes em EN, além da legenda para a palavra pesquisada e notas acerca dela (caso hajam).
+
+### Sheet: Source
+Banco de dados com alguns dos termos técnicos mais usados do Habitica.
+
+---
+
 ## Spreadsheet: Discussion Habitica Source
 Contém uma ferramenta para inclusão de sugestões sobre traduções de termos do Habitica.
 
