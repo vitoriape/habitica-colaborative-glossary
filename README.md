@@ -4,7 +4,7 @@ Este é um projeto criado com o intuito de reunir os termos técnicos do Habitic
 A mesma funciona por meio de códigos em **VBA**. Para utilizá-la basta baixar a planilha **(em formato xlsm)**, abrir a mesma e ativar o uso do VBA no seu Excel.
 Há também uma planilha que funciona sem o VBA, a **Simple Search Habitica Source**, que usa apenas comandos _VLOOKUP_.
 
-No repositório do projeto constam todos os **Módulos** em VBA programados para os botões e funcionalidades da planilha. Não é necessário fazer nenhum tipo de instalação, essa é apenas uma forma de manter os mesmos organizados.
+No repositório do projeto constam todos os **Módulos** em VBA (em formato .bas) programados para os botões e funcionalidades da planilha. Não é necessário fazer nenhum tipo de instalação, essa é apenas uma forma de manter os mesmos organizados.
 
 # Future Updates
 Em breve os **Módulos** serão substituídos por **Formulários**.
