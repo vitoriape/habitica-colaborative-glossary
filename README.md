@@ -1,19 +1,21 @@
 # HabiTranSource(PT-BR)
-Este é um projeto criado com o intuito de reunir os termos técnicos do Habitica e strings comuns de tradução em uma planilha colaborativa.
-A mesma funciona por meio de códigos em VBA. Para utilizá-la basta baixar a planilha (em formato xlsm), abrir a mesma e ativar o uso do VBA no seu Excel.
-Mais pra frente haverá uma planilha mais simples, em formato xlsx (sem VBA), também para consulta e inserção de termos.
+Este é um projeto criado com o intuito de reunir os termos técnicos do Habitica e _strings_ comuns de tradução em uma planilha colaborativa. Além de proporcionar uma ferramenta que possibilita a _discussão_ sobre a tradução de termos.
 
-As legendas para as strings ainda serão reorganizadas e pretendo criar uma planilha só para elas. Assim que estiver pronto haverá uma caixinha de seleção dessas legendas/labels no campo de inserção de novos termos.
+A mesma funciona por meio de códigos em **VBA**. Para utilizá-la basta baixar a planilha **(em formato xlsm)**, abrir a mesma e ativar o uso do VBA no seu Excel.
+Há também uma planilha que funciona sem o VBA, a **Simple Search Habitica Source**, que usa apenas comandos _VLOOKUP_.
 
-No repositório do projeto constam (em arquivo do tipo bloco de notas) todos os códigos em VBA usados nos botões da planilha. Não é necessário fazer nenhum tipo de instalação, essa é apenas uma forma de manter os mesmos organizados.
+No repositório do projeto constam todos os **Módulos** em VBA programados para os botões e funcionalidades da planilha. Não é necessário fazer nenhum tipo de instalação, essa é apenas uma forma de manter os mesmos organizados.
+
+# Future Updates
+Em breve os **Módulos** serão substituídos por **Formulários**.
 
 ---
 
 ## Spreadsheet: Discussion Habitica Source
-Contém ferramentas para inclusão de sugestões sobre traduções de termos do Habitica.
+Contém uma ferramenta para inclusão de sugestões sobre traduções de termos do Habitica.
 
 ### Sheet: Add_New_Discussion
-Na planilha Add_New_Discussion é possível contribuir adicionando novas dsicussões, basta incluir nos respectivos campos, o termo em PT-BR, em EN e caso seja possvel, uma legenda (que pode ser selecionada no campo "Label") e notas sobre a discussão.
+Na planilha Add_New_Discussion é possível contribuir adicionando novas discussões, basta incluir nos campos das células C3, C4 e C7, o termo em _PT-BR_, em _EN_ e as suas observações. Deve-se inserir também uma _legenda_ (que pode ser selecionada no campo _Label_).
 
 ### Sheet: Discussions
 Banco de dados onde fica registrado as novas discussões inseridas através da planillha "Add_New_Discussion".
@@ -24,10 +26,10 @@ Banco de dados onde fica registrado as novas discussões inseridas através da p
 Contém ferramentas que possibilitam a pesquisa por termos técnicos do Habitica nos dois idiomas (EN & PT-BR).
 
 ### Sheet: Search_Bar
-Selecionando o eixo B2, ao lado do ícone de pesquisa, é possível digitar o termo pelo qual se deseja procurar. O botão "CLEAR" ao lado apaga este campo.
+Selecionando a célula B2, ao lado do ícone de pesquisa, é possível digitar o termo pelo qual se deseja procurar. O botão _CLEAR_ ao lado apaga este campo.
 
-* Caso o termo pesquisado esteja em EN, deve-se usar o botão roxo "SEARCH EN".
-* Caso o termo pesquisado esteja em PT-BR, deve-se usar o botão roxo "SEARCH PT-BR".
+* Caso o termo pesquisado esteja em _EN_, deve-se usar o botão roxo _SEARCH EN_.
+* Caso o termo pesquisado esteja em _PT-BR_, deve-se usar o botão roxo _SEARCH PT-BR_.
 
 A ferramenta retorna, caso haja no banco de dados, o termo equivalente em PT-BR e em EN, a legenda do mesmo e notas a respeito dele.
 
