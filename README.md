@@ -12,7 +12,7 @@ Em breve os **Módulos** serão substituídos por **Formulários**.
 ---
 
 ## Spreadsheet: Simple Search Habitica Source
-Contém uma ferramenta de pesquisa simplificada, sem VBA.
+Contém uma ferramenta de pesquisa simplificada, sem VBA.  
 Link para versão no **Planilhas Google**: [Simples Search Habitica Source](https://docs.google.com/spreadsheets/d/1umFlpiYm5u1wt8d67nGnczDkWZeCjZz3l5k5Nyf6_3c/edit?usp=sharing)
 
 ### Sheet: Search Bar
