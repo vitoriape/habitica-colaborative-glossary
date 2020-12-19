@@ -13,6 +13,7 @@ Em breve os **Módulos** serão substituídos por **Formulários**.
 
 ## Spreadsheet: Simple Search Habitica Source
 Contém uma ferramenta de pesquisa simplificada, sem VBA.
+Link para versão no **Planilhas Google**: [Simples Search Habitica Source](https://docs.google.com/spreadsheets/d/1umFlpiYm5u1wt8d67nGnczDkWZeCjZz3l5k5Nyf6_3c/edit?usp=sharing)
 
 ### Sheet: Search Bar
 Selecione e linha 2 e digite o termo pelo qual deseja procurar. Caso ele esteja presente no banco de dados, serão retornadas as _strings_ equivalentes em EN, além da legenda para a palavra pesquisada e notas acerca dela (caso hajam).
