@@ -6,10 +6,18 @@ Há também uma planilha que funciona sem o VBA, a **Simple Search Habitica Sour
 
 No repositório do projeto constam todos os **Módulos** em VBA (em formato .bas) programados para os botões e funcionalidades da planilha. Não é necessário fazer nenhum tipo de instalação, essa é apenas uma forma de manter os mesmos organizados.
 
-# Future Updates
+## Future Updates
 Em breve os **Módulos** serão substituídos por **Formulários**.
 
 ---
+
+# Guilda Excel & VBA
+Guilda voltada para habiticans que **programam em VBA** e também para aqueles(as) buscando melhorar suas **habilidades com o Excel** e ferramentas office similares.  
+* Link da Guilda no Habitica: [Excel e VBA](https://habitica.com/groups/guild/b9447205-5b3e-4a19-9f63-f1a256b8f5a3)
+
+---
+
+# Arquivos e Funcionalidades do Projeto
 
 ## Spreadsheet: Simple Search Habitica Source
 Contém uma ferramenta de pesquisa simplificada, sem VBA.  
@@ -50,7 +58,7 @@ Nesta planilha está o banco de dados com alguns dos termos técnicos mais usado
 
 ---
 
-## Referências
+# Referências
 Como referências para esse projeto foram utilizadas as seguintes fontes:
 
 * A Wiki PT-BR do Habitica e seu [Glossário](https://habitica.fandom.com/pt-br/wiki/Gloss%C3%A1rio)
