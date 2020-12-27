@@ -13,7 +13,7 @@ Em breve os **Módulos** serão substituídos por **Formulários**.
 
 # Guilda Excel & VBA
 Guilda voltada para habiticans que **programam em VBA** e também para aqueles(as) buscando melhorar suas **habilidades com o Excel** e ferramentas office similares.  
-* Link da Guilda no Habitica: [Excel e VBA](https://habitica.com/groups/guild/b9447205-5b3e-4a19-9f63-f1a256b8f5a3)
+* Link da Guilda no Habitica: [Cidadela das Planilhas (Excel | VBA)](https://habitica.com/groups/guild/b9447205-5b3e-4a19-9f63-f1a256b8f5a3)
 
 ---
 
@@ -21,7 +21,7 @@ Guilda voltada para habiticans que **programam em VBA** e também para aqueles(a
 
 ## Spreadsheet: Simple Search Habitica Source
 Contém uma ferramenta de pesquisa simplificada, sem VBA.  
-Link para versão no **Planilhas Google**: [Simples Search Habitica Source](https://docs.google.com/spreadsheets/d/1umFlpiYm5u1wt8d67nGnczDkWZeCjZz3l5k5Nyf6_3c/edit?usp=sharing)
+Link para versão no **Planilhas Google**: [Simples Search Habitica Source](https://docs.google.com/spreadsheets/d/1Td58TMja9UE9rwIwOf_2l41dsCi5FrW0wFUOzgA1SjY/edit?usp=sharing)
 
 ### Sheet: Search Bar
 Selecione e linha 2 e digite o termo pelo qual deseja procurar. Caso ele esteja presente no banco de dados, serão retornadas as _strings_ equivalentes em EN, além da legenda para a palavra pesquisada e notas acerca dela (caso hajam).
@@ -63,6 +63,6 @@ Como referências para esse projeto foram utilizadas as seguintes fontes:
 
 * A Wiki PT-BR do Habitica e seu [Glossário](https://habitica.fandom.com/pt-br/wiki/Gloss%C3%A1rio)
 
-* O Portuguse (Brazil) [Glossary do Weblate Habitica](https://translate.habitica.com/dictionaries/habitica/pt_BR/)
+* O Portuguese (Brazil) [Glossary do Weblate Habitica](https://translate.habitica.com/dictionaries/habitica/pt_BR/)
 
 * A Planilha antiga [Tradução Habitica](https://docs.google.com/spreadsheets/d/1zxh9XHd6ODQ2tUh2Zk0l1ovpWRhLKLV5mXYRUjfX_TE/edit#gid=0), elaborada pelo @BardoVelho.
