@@ -1,44 +1,29 @@
 # HabiTranSource(PT-BR)
-Este é um projeto criado com o intuito de reunir os termos técnicos do Habitica e _strings_ comuns de tradução em uma planilha colaborativa. Além de proporcionar uma ferramenta que possibilita a _discussão_ sobre a tradução de termos.
+Este é um projeto criado com o intuito de reunir os termos técnicos do Habitica e _strings_ comuns de tradução em uma planilha-glossário colaborativa. 
 
 A mesma funciona por meio de códigos em **VBA**. Para utilizá-la basta baixar a planilha **(em formato xlsm)**, abrir a mesma e ativar o uso do VBA no seu Excel.
 Há também uma planilha que funciona sem o VBA, a **Simple Search Habitica Source**, que usa apenas comandos _VLOOKUP_.
 
-No repositório do projeto constam todos os **Módulos** em VBA (em formato .bas) programados para os botões e funcionalidades da planilha. Não é necessário fazer nenhum tipo de instalação, essa é apenas uma forma de manter os mesmos organizados.
+No repositório do projeto constam todos os **Módulos** em VBA (em formato .bas) programados para os botões e funcionalidades da planilha. Não é necessário fazer nenhum tipo de instalação dos mesmos.
 
 ## Future Updates
 Em breve os **Módulos** serão substituídos por **Formulários**.
 
 ---
 
-# Guilda Excel & VBA
-Guilda voltada para habiticans que **programam em VBA** e também para aqueles(as) buscando melhorar suas **habilidades com o Excel** e ferramentas office similares.  
-* Link da Guilda no Habitica: [Cidadela das Planilhas (Excel | VBA)](https://habitica.com/groups/guild/b9447205-5b3e-4a19-9f63-f1a256b8f5a3)
-
----
-
 # Arquivos e Funcionalidades do Projeto
 
 ## Spreadsheet: Simple Search Habitica Source
-Contém uma ferramenta de pesquisa simplificada, sem VBA.  
-Link para versão no **Planilhas Google**: [Simples Search Habitica Source](https://docs.google.com/spreadsheets/d/1Td58TMja9UE9rwIwOf_2l41dsCi5FrW0wFUOzgA1SjY/edit?usp=sharing)
+Contém uma ferramenta de pesquisa simplificada, sem VBA. 
+ 
+* Link para versão no **Planilhas Google**: [Glossário Colaborativo](https://docs.google.com/spreadsheets/d/1Td58TMja9UE9rwIwOf_2l41dsCi5FrW0wFUOzgA1SjY/edit?usp=sharing)
+
 
 ### Sheet: Search Bar
 Selecione e linha 2 e digite o termo pelo qual deseja procurar. Caso ele esteja presente no banco de dados, serão retornadas as _strings_ equivalentes em EN, além da legenda para a palavra pesquisada e notas acerca dela (caso hajam).
 
 ### Sheet: Source
-Banco de dados com alguns dos termos técnicos mais usados do Habitica.
-
----
-
-## Spreadsheet: Discussion Habitica Source
-Contém uma ferramenta para inclusão de sugestões sobre traduções de termos do Habitica.
-
-### Sheet: Add_New_Discussion
-Na planilha Add_New_Discussion é possível contribuir adicionando novas discussões, basta incluir nos campos das células C3, C4 e C7, o termo em _PT-BR_, em _EN_ e as suas observações. Deve-se inserir também uma _legenda_ (que pode ser selecionada no campo _Label_).
-
-### Sheet: Discussions
-Banco de dados onde fica registrado as novas discussões inseridas através da planillha "Add_New_Discussion".
+Banco de dados atualizado pelos colaboradores do projeto.
 
 ---
 
