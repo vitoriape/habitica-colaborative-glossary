@@ -6,39 +6,26 @@ There is also a spreadsheet that works without VBA, the **Simple Search Habitica
 
 In the project's repository are all the VBA **Modules** (in .bas format) programmed for the spreadsheet's buttons and functionality. No installation is required, this is just a way to keep them organized.
 
+=======
+
 ## Future Updates
 In the near future the **Modules** will be replaced by **Forms**.
-
----
-
-# Guilda Excel & VBA
-Guilda voltada para habiticans que **programam em VBA** e também para aqueles(as) buscando melhorar suas **habilidades com o Excel** e ferramentas office similares.  
-* Link da Guilda no Habitica: [Cidadela das Planilhas (Excel | VBA)](https://habitica.com/groups/guild/b9447205-5b3e-4a19-9f63-f1a256b8f5a3)
 
 ---
 
 # Arquivos e Funcionalidades do Projeto
 
 ## Spreadsheet: Simple Search Habitica Source
-Contém uma ferramenta de pesquisa simplificada, sem VBA.  
-Link para versão no **Planilhas Google**: [Simples Search Habitica Source](https://docs.google.com/spreadsheets/d/1Td58TMja9UE9rwIwOf_2l41dsCi5FrW0wFUOzgA1SjY/edit?usp=sharing)
+Contém uma ferramenta de pesquisa simplificada, sem VBA. 
+ 
+* Link para versão no **Planilhas Google**: [Glossário Colaborativo](https://docs.google.com/spreadsheets/d/1Td58TMja9UE9rwIwOf_2l41dsCi5FrW0wFUOzgA1SjY/edit?usp=sharing)
+
 
 ### Sheet: Search Bar
 Selecione e linha 2 e digite o termo pelo qual deseja procurar. Caso ele esteja presente no banco de dados, serão retornadas as _strings_ equivalentes em EN, além da legenda para a palavra pesquisada e notas acerca dela (caso hajam).
 
 ### Sheet: Source
-Banco de dados com alguns dos termos técnicos mais usados do Habitica.
-
----
-
-## Spreadsheet: Discussion Habitica Source
-Contém uma ferramenta para inclusão de sugestões sobre traduções de termos do Habitica.
-
-### Sheet: Add_New_Discussion
-Na planilha Add_New_Discussion é possível contribuir adicionando novas discussões, basta incluir nos campos das células C3, C4 e C7, o termo em _PT-BR_, em _EN_ e as suas observações. Deve-se inserir também uma _legenda_ (que pode ser selecionada no campo _Label_).
-
-### Sheet: Discussions
-Banco de dados onde fica registrado as novas discussões inseridas através da planillha "Add_New_Discussion".
+Banco de dados atualizado pelos colaboradores do projeto.
 
 ---
 
