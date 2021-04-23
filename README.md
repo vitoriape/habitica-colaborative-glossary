@@ -1,15 +1,13 @@
-# HabiTranSource(EN)
-This is a project created with the intent of gathering Habitica's technical terms and common _strings_ of translation into a collaborative spreadsheet. It also provides a tool that allows for _discussion_ about the translation of terms.
+# HabiTranSource(PT-BR)
+Este é um projeto criado com o intuito de reunir os termos técnicos do Habitica e _strings_ comuns de tradução em uma planilha-glossário colaborativa. 
 
-It works by means of code in **VBA**. To use it, simply download the spreadsheet **(in xlsm format)**, open it, and activate the use of VBA in your Excel.
-There is also a spreadsheet that works without VBA, the **Simple Search Habitica Source**, which uses only _VLOOKUP_ commands.
+A mesma funciona por meio de códigos em **VBA**. Para utilizá-la basta baixar a planilha **(em formato xlsm)**, abrir a mesma e ativar o uso do VBA no seu Excel.
+Há também uma planilha que funciona sem o VBA, a **Simple Search Habitica Source**, que usa apenas comandos _VLOOKUP_.
 
-In the project's repository are all the VBA **Modules** (in .bas format) programmed for the spreadsheet's buttons and functionality. No installation is required, this is just a way to keep them organized.
-
-=======
+No repositório do projeto constam todos os **Módulos** em VBA (em formato .bas) programados para os botões e funcionalidades da planilha. Não é necessário fazer nenhum tipo de instalação dos mesmos.
 
 ## Future Updates
-In the near future the **Modules** will be replaced by **Forms**.
+Em breve os **Módulos** serão substituídos por **Formulários**.
 
 ---
 
