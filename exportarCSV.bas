@@ -18,7 +18,7 @@ Sub CriarCSV()
     Sheets("Source").Select
         Application.CutCopyMode = False
         
-    Sheets("Source").Copy   '< Cria uma cópia da planilha Source >
+    Sheets("Source").Copy   '< Cria uma cÃ³pia da planilha Source >
     
 
 
@@ -33,9 +33,8 @@ Sub CriarCSV()
     
     
     Sheets("Glossary").Select
-    MsgBox "Your csv file has been created!", vbOKOnly, "Console"  '< Exibe a planilha original com uma mensagem de confirmação >
+    MsgBox "Your csv file has been created!", vbOKOnly, "Console"  '< Exibe a planilha original com uma mensagem de confirmaÃ§Ã£o >
     
     Shell "C:\WINDOWS\explorer.exe """ & "C:\Arquivos CSV" & "", vbNormalFocus  '< Exibe a pasta criada com o arquivo csv gerado >
     
 End Sub
-
